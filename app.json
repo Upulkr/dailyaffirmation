@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "DailyAffirmations",
+    "slug": "dailyaffirmation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.upul.dailyaffirmations",
+
+      "infoPlist": {
+        "NSUserNotificationAlertUsageDescription": "This app uses notifications to deliver daily affirmations.",
+        "UIBackgroundModes": ["remote-notification"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "notifications": {
+      "icon": "./assets/icon.png",
+      "color": "#3B82F6",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "New Affirmation",
+      "androidShowBadge": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d81b236-3fb7-4d51-ac57-b4994b2d822a"
+      }
+    },
+    "owner": "upulkr4"
+  }
+}
